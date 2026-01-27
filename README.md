@@ -1,2 +1,2 @@
 # Learn-React-JS-the-fast-way
-i start it because my interview i get ask for React so while a month i will able to use it as well in next job :)
+I started learning React after it was required in an interview, and I will be ready to use it professionally in my next role within a month.  ASTROLABS :)  
