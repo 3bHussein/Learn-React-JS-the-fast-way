@@ -1,2 +1,21 @@
 # Learn-React-JS-the-fast-way
 I started learning React after it was required in an interview, and I will be ready to use it professionally in my next role within a month.  ASTROLABS :)  
+
+for run code for first Time 
+
+```bash
+npm install
+npm run dev
+
+
+
+
+VSCOde Exten
+ES7+ React/Redux/React-Native snippets
+Material Icon Theme
+Simple React Snippets
+Tailwind CSS IntelliSense
+
+
+
+
