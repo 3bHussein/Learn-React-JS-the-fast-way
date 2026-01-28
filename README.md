@@ -8,8 +8,11 @@ for run code for first Time
 <summary><strong>Run React </strong></summary>
 
 ```bash
+
+npm create vite@latest my-app -- --template react-js
 npm install
 npm run dev
+
 ```
 </details>
 
