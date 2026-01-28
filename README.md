@@ -6,7 +6,14 @@ for run code for first Time
 ```bash
 npm install
 npm run dev
+```
+### Install Tailwind CSS
 
+Install `tailwindcss` and `@tailwindcss/vite` via npm.
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
 
 
 
