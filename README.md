@@ -3,18 +3,15 @@ I started learning React after it was required in an interview, and I will be re
 
 for run code for first Time 
 
+
+<details>
+<summary><strong>Run React </strong></summary>
+
 ```bash
 npm install
 npm run dev
 ```
-### Install Tailwind CSS
-
-Install `tailwindcss` and `@tailwindcss/vite` via npm.
-
-```bash
-npm install tailwindcss @tailwindcss/vite
-```
-
+</details>
 
 
 <details>
@@ -23,14 +20,19 @@ npm install tailwindcss @tailwindcss/vite
 ```bash
 npm install tailwindcss @tailwindcss/vite
 ```
+</details>
 
 
-
-vscode extension
+<details>
+<summary><strong>Vscode Extension</strong></summary>
 ES7+ React/Redux/React-Native snippets
 Material Icon Theme
 Simple React Snippets
 Tailwind CSS IntelliSense
+
+ 
+</details>
+vscode extension
 
 
 
