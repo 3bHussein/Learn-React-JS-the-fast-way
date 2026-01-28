@@ -16,7 +16,6 @@ npm install tailwindcss @tailwindcss/vite
 ```
 
 
-<summary><strong>Install Tailwind CSS</strong></summary>
 
 <details>
 <summary><strong>Install Tailwind CSS</strong></summary>
