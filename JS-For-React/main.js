@@ -85,3 +85,15 @@ function RestOPTest(x,z,...y){
 
 RestOPTest('ahmed','ali','mohamed','noah','zina')
 console.log('-------<<<>>>--------');
+// starting from 28/1/2028 8:46AM
+console.log('-------<<<spread Operator------');
+
+// spread operator 
+const fruits =['apple','banana'];
+const morefruits =['cherry','melon'];
+
+const allFruits= [...fruits,...morefruits]
+const newstate = [...fruits,'grapes'] //here you can apend new element to array with spread operator ...
+console.log(allFruits);
+console.log(newstate);
+//  add spread operator and explain it as well 
