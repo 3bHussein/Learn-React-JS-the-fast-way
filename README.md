@@ -18,6 +18,15 @@ npm install tailwindcss @tailwindcss/vite
 
 <summary><strong>Install Tailwind CSS</strong></summary>
 
+<details>
+<summary><strong>Install Tailwind CSS</strong></summary>
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+
+
 vscode extension
 ES7+ React/Redux/React-Native snippets
 Material Icon Theme
