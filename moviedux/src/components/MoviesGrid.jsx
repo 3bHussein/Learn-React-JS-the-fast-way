@@ -2,26 +2,25 @@ import React from "react";
 import '../styles.css';
 import { useState ,useEffect  } from "react";
 
-export default function MoviesGrid(){
+ function MoviesGrid(){
 
-    const age =20;
-    // const [movies,setMovies] = useState([]);
 
     const [movies,setMovies] = useState([]);
-    // fetch(movies.)
+   
     // to get the data from File
     // fetch('movies.json');
     
 
-    //    setMovies=(m);
+
         useEffect(()=>
         {
         //  const m =['1','2','3'];
             fetch("movies.json")
+            // fetch(movies.json)
             .then(response => response.json())
             .then(data=> setMovies(data))
-
-                // setMovies(m)
+            console.log("hello from fetchasda");
+             
         },[]
         );
 
@@ -31,9 +30,7 @@ export default function MoviesGrid(){
     return (
 
         <div className="movies-grid">
-
-            {/* {movies.length} */}
-            {/* {movies.to} */}
+ 
 
          {
             movies.map(movie=>(
@@ -55,3 +52,4 @@ export default function MoviesGrid(){
     );
 }
 
+export default MoviesGrid
