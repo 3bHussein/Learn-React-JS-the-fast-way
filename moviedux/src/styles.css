@@ -59,6 +59,8 @@ body {
   gap: 2rem 2rem;  
   padding: 1rem;
   justify-content: center;
+   justify-content: start;
+   
 }
 
 /* Movie Card Styles */

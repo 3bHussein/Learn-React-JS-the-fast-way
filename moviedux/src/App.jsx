@@ -29,8 +29,7 @@ export default function App() {
         {/* this one component */}
 
         <Header></Header>
-        <br />
-        <hr />  
+   
         <MoviesGrid></MoviesGrid>
 
 
