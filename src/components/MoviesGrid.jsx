@@ -25,7 +25,7 @@ import MovieCard from "./MovieCard";
 };
 
 
-        const fileMovives= movies.filter(movie=>movie.title.toLowerCase().includes(searchTerm.toLocaleLowerCase()))
+        const filterMovives= movies.filter(movie=>movie.title.toLowerCase().includes(searchTerm.toLocaleLowerCase()))
 
 
     
@@ -44,7 +44,7 @@ import MovieCard from "./MovieCard";
      />
   <div className="movies-grid">
     {
-    fileMovives.map(movie=>(
+    filterMovives.map(movie=>(
     // movies Values  id,  rating ,images,genre 
 
     // add the div using the prop function
