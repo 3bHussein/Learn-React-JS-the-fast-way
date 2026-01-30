@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles.css';
 import { useState ,useEffect  } from "react";
-
+import MovieCard from "./MovieCard";
  function MoviesGrid(){
 
 
@@ -25,16 +25,11 @@ import { useState ,useEffect  } from "react";
 
         <div className="movies-grid">
  {
-    movies.map(movie=>(
+            movies.map(movie=>(
                             // movies Values  id,  rating ,images,genre 
  
-                <div key={movie.id} className="movie-card">
-                    <img src={`images/${movie.image}`} alt={movie.title} />
-                    <h3 className="movie-card-title">{movie.title}</h3>
-                    <div className="movie-card-genre">{movie.genre}</div>
-                    <div className="movie-card-rating">{movie.rating}</div>
-                </div>
-                
+                    // add the div using the prop function
+                      <MovieCard movie={movie} key={movie.id}></MovieCard>             
     ))
  }
 
