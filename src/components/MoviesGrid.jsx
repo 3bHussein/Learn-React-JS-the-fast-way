@@ -6,6 +6,7 @@ import MovieCard from "./MovieCard";
 
 
     const [movies,setMovies] = useState([]);
+    const [searchTerm ,setSearchTerm]=useState('');
    
     // to get the data from File
     // fetch('movies.json');
@@ -15,6 +16,16 @@ import MovieCard from "./MovieCard";
             .then(response =>response.json())
             .then(data=>setMovies(data))
         },[]);
+    // const handleSearchChange = (e)=>{ 
+    //     searchTerm(e.target.value)  
+        
+    //     };
+        const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+};
+
+
+        const fileMovives= movies.filter(movie=>movie.title.toLowerCase().includes(searchTerm.toLocaleLowerCase()))
 
 
     
@@ -22,22 +33,29 @@ import MovieCard from "./MovieCard";
         // useEffect(()=>{},[]);
 
     return (
+    <div>
 
-        <div className="movies-grid">
- {
-            movies.map(movie=>(
-                            // movies Values  id,  rating ,images,genre 
- 
-                    // add the div using the prop function
-                      <MovieCard movie={movie} key={movie.id}></MovieCard>             
-    ))
- }
+    <input type="text" placeholder="Search your Movie..."
+     className="search-input"
+     value={searchTerm}
 
-
+     onChange={handleSearchChange}
      
+     />
+  <div className="movies-grid">
+    {
+    fileMovives.map(movie=>(
+    // movies Values  id,  rating ,images,genre 
 
-        
-        </div>
+    // add the div using the prop function
+    <MovieCard movie={movie} key={movie.id}></MovieCard>             
+    ))
+    }
+
+
+    </div>
+</div>
+  
     );
 }
 
