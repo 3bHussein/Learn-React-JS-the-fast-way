@@ -16,8 +16,7 @@ import MovieCard from "./MovieCard";
             .then(response =>response.json())
             .then(data=>setMovies(data))
         },[]);
-    // const handleSearchChange = (e)=>{ 
-    //     searchTerm(e.target.value)  
+    
         
     //     };
         const handleSearchChange = (e) => {
