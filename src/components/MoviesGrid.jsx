@@ -34,7 +34,7 @@ import MovieCard from "./MovieCard";
     return (
     <div>
 
-    <input type="text" placeholder="Search your Movie..."
+    <input type="text" placeholder="Search your Movie... :D"
      className="search-input"
      value={searchTerm}
 
