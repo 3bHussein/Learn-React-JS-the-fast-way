@@ -49,7 +49,6 @@ import MovieCard from "./MovieCard";
     // add the div using the prop function
     <MovieCard movie={movie} key={movie.id}></MovieCard>  
     // 
-    // 
    
             //    
     ))
