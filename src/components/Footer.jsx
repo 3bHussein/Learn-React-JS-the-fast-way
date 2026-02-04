@@ -15,7 +15,7 @@ export default function Footer(){
    {/* <p className='footer'>Footder content here </p> */}
         
         <p className="foot-text">
-            @{currentyear}@3B-moviedux, All Right reserved.
+            @{currentyear}@3B-moviedux, All Right reserved
         </p>
         </div>
         
