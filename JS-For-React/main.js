@@ -97,4 +97,4 @@ const newstate = [...fruits,'grapes'] //here you can apend new element to array 
 console.log(allFruits);
 console.log(newstate);
 //  add spread operator and explain it as well 
-//  add spread operator and explain it as well 
+
