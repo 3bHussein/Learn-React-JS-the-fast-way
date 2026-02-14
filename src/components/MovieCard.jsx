@@ -1,28 +1,29 @@
-// rafce 
-import React from 'react'
-import '../styles.css';
+// // rafce 
+// import React from 'react'
+// import '../styles.css';
 
 
 
 
-function MovieCard(movie) {
+// function MovieCard(movie) {
     
-    return(
+//     return(
 
-          <div key={movie.id} className="movie-card">
-                    <img src={`images/${movie.image}`}
-                     alt={movie.title}
-                     onError={ImageHandler}
-                     />
+//           <div key={movie.id} className="movie-card">
+//                     <img src={`images/${movie.image}`}
+//                      alt={movie.title}
+//                      onError={ImageHandler}
+//                      />
 
-                    <h3 className="movie-card-title">{movie.title}</h3>
-                    <div className="movie-card-genre">{movie.genre}</div>
-                    <div className={`movie-card-rating ${GetRate(movie.rating)}`}>{movie.rating}</div>
-                </div>
-    );
-}
+//                     <h3 className="movie-card-title">{movie.title}</h3>
+//                     <div className="movie-card-genre">{movie.genre}</div>
+//                     <div className={`movie-card-rating ${GetRate(movie.rating)}`}>{movie.rating}</div>
+//                 </div>
+//     );
+// }
  
-export default MovieCard
-
+// export default MovieCard
+ 
+// 
 
 
