@@ -38,7 +38,7 @@ npm install tailwindcss @tailwindcss/vite
 
 ## have focus on Arrow Operator        
  
-
+.
 
 ## https://3bhussein.github.io/Learn-React-JS-the-fast-way/
 
